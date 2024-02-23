@@ -218,6 +218,7 @@ html {
 iframe {
   margin-top: -56px;
   margin-left: 6px;
+  border: none;
 }
 
 .footer {

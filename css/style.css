@@ -153,7 +153,6 @@ html {
   line-height: 26.25px;
   margin-left: 12px;
 }
-
 .experience {
   height: 250px;
   background-color: var(--color-blue);
@@ -166,6 +165,7 @@ html {
   justify-content: space-between;
   margin-top: 83px;
   margin-left: 11px;
+  flex-wrap: wrap;
 }
 
 .experience-item {
@@ -182,7 +182,7 @@ html {
 
 .experience-item__content {
   margin-left: 20px;
-  margin-right: 50px;
+  margin-right: 14px;
 }
 
 .experience-item__number {
@@ -223,6 +223,7 @@ html {
 .video {
   display: flex;
   justify-content: center;
+    flex-wrap: wrap;
 }
 
 .process-video {

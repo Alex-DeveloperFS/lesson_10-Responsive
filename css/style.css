@@ -282,6 +282,10 @@ html {
     padding: 10px;
   }
 
+  .navbar__link--first {
+    margin-left: 0;
+  }
+
   .experience__container {
     justify-content: center;
     gap: 15px;

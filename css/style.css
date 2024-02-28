@@ -62,13 +62,13 @@ html {
 
 .header {
   min-height: 700px;
-  padding-top: 79px;
+  padding-top: 69px;
 }
 
 .navbar__list {
   display: flex;
   justify-content: flex-start;
-  gap: 43px;
+  gap: 23px;
 }
 
 .navbar__link {
@@ -79,6 +79,8 @@ html {
   color: var(--color-black);
   transition: 0.25s;
   display: block;
+  padding: 10px;
+  margin-bottom: -10px;
 }
 
 .navbar__link:hover {
@@ -88,6 +90,7 @@ html {
 .navbar__link--first {
   color: var(--color-navbar-first-link);
   font-weight: 500;
+  margin-left: -10px;
 }
 
 .content {
@@ -269,14 +272,14 @@ html {
 @media (max-width: 768px) {
   .navbar__list {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .navbar__link {
-    padding-bottom: 10px;
-  }
-
-  .navbar__link {
-    padding-bottom: 10px;
+    padding: 10px;
   }
 
   .experience__container {
@@ -294,4 +297,9 @@ html {
     height: 188px;
     margin-bottom: 100px;
   }
+
+  .navbar__link--work {
+    margin-left: -10px;
+  }
+
 }

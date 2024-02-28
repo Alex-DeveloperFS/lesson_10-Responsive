@@ -270,22 +270,20 @@ html {
   .navbar__list {
     flex-wrap: wrap;
   }
-}
 
-@media (max-width: 768px) {
   .navbar__link {
     padding-bottom: 10px;
   }
-}
 
-@media (max-width: 768px) {
+  .navbar__link {
+    padding-bottom: 10px;
+  }
+
   .experience__container {
     justify-content: center;
     gap: 15px;
   }
-}
 
-@media (max-width: 768px) {
   .video__iframe {
     height: 400px;
   }
